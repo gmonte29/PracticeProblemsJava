@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 public class plusOne66 {
 
-    //100% runtime, 99.07% memory solution for LeetCode 66
     public static void main(String[] args) {
         int [] list = {1,8,3,2,5,9,9,9,9};
         System.out.println(Arrays.toString(plusOne(list)));
 
     }
 
+    //100% runtime, 99.07% memory solution for LeetCode 66
     public static int[] plusOne(int [] digits) {
         if (digits[digits.length - 1] != 9) {
             digits[digits.length - 1]++;
