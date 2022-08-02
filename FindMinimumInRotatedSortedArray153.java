@@ -6,6 +6,7 @@ public class FindMinimumInRotatedSortedArray153 {
     }
 
     //100% runtime, 46.23% memory solution for LeetCode 153
+    //https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/
     public static int findMin(int[] nums) {
 
         int beg = 0;

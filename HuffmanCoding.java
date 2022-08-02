@@ -7,6 +7,7 @@ public class HuffmanCoding {
     }
 
     //HackerRanks solution for HuffmanCoding problem (advanced)
+    //https://www.hackerrank.com/challenges/tree-huffman-decoding/problem
     public static void decode(String s, Node root) {
         String d = "";
         Node current = root;

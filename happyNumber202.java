@@ -7,6 +7,7 @@ public class happyNumber202 {
     }
 
     //97.05% runtime, 42.13% memory solution for LeetCode 202
+    //https://leetcode.com/problems/happy-number/
     public static boolean isHappy(int num) {
         List<Integer> list = new LinkedList<>();
 

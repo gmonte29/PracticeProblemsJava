@@ -5,6 +5,7 @@ public class printSquares {
    }
 
    //Building Java Programs, 5th Edition exercise 12.24 solution
+   //https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e24-printSquares
    public static void printSquares(int n){
          if(n==0) return;
          printSquares(n, 1, 0,"");

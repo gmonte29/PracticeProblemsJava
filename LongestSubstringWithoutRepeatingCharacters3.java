@@ -6,6 +6,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     }
 
     //19.5% runtime, 12.08% memory solution for LeetCode 3
+    //https://leetcode.com/problems/longest-substring-without-repeating-characters/
     public static int lengthOfLongestSubstring(String s) {
         String tracker = "";
         int max = Integer.MIN_VALUE;

@@ -9,6 +9,7 @@ public class plusOne66 {
     }
 
     //100% runtime, 99.07% memory solution for LeetCode 66
+    //https://leetcode.com/problems/plus-one/
     public static int[] plusOne(int [] digits) {
         if (digits[digits.length - 1] != 9) {
             digits[digits.length - 1]++;

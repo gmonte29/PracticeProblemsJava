@@ -6,8 +6,8 @@ public class PreorderTraversal {
         public Node right;
     }
 
-
     //HackerRanks solution for preorder traversal problem (advanced)
+    //https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
     public static void preOrder(Node root) {
         if(root == null) return;
         else{

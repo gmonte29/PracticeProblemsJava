@@ -5,6 +5,7 @@ public class LongestRepeatingCharacterReplacement424 {
     }
 
     //5.03% runtime, 49.07% memory solution for LeetCode 424
+    //https://leetcode.com/problems/longest-repeating-character-replacement/
     public static int characterReplacement(String s, int k) {
         int start = 0;
         int end = 1;
